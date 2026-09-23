@@ -1,0 +1,8 @@
+{
+  "name": "coldlane",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ColdLane: cold-chain shipment tracking. Static front end + Vercel serverless API + Supabase auth and Postgres.",
+  "engines": { "node": ">=18" }
+}
+
