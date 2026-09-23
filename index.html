@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ColdLane · Cold-chain freight, fully visible</title>
+  <meta name="description" content="ColdLane books, tracks and monitors temperature-controlled pharma and critical freight in one place." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230b1b2b'/%3E%3Cpath d='M16 5v22M6.5 10.5l19 11M25.5 10.5l-19 11' stroke='%2345b8ff' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav" id="nav">
+    <div class="wrap nav-inner">
+      <a href="#/" class="brand" aria-label="ColdLane home">
+        <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><rect width="32" height="32" rx="8" fill="currentColor" class="brand-bg"/><path d="M16 5v22M6.5 10.5l19 11M25.5 10.5l-19 11" stroke="#45b8ff" stroke-width="2.6" stroke-linecap="round"/></svg>
+        <span>ColdLane</span>
+      </a>
+      <nav class="nav-links" id="navLinks"></nav>
+    </div>
+  </header>
+
+  <main id="view" tabindex="-1"></main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div>
+        <strong>ColdLane</strong>
+        <p class="muted">Temperature-controlled freight for pharma, life sciences and aircraft-on-ground parts.</p>
+      </div>
+      <div class="muted small">Built by Devavrat for the Masters' Union TBM project. ColdLane is a fictional product.</div>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
